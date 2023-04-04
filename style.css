@@ -2,6 +2,8 @@
     margin: 0px;
     padding: 0px;
 }
+/* Parte da jogada do player */
+/* Inicio */
 #jogada-player{
     width: 100%;
     display: flex;
@@ -22,15 +24,43 @@
     display: flex;
     justify-content: center;
 }
+/* Fim */
+/* Ajuste tamanho e borda imagem (hover tbm) */
+/* Inicio */
 .papel-img{
     width: 250px;
     height: 200px;
+    border: 3px solid white;
+}
+.papel-img:hover{
+    border: 3px solid rgb(55, 255, 55);
 }
 .pedra-img{
     width: 270px;
     height: 200px;
+    border: 3px solid white;
+}
+.pedra-img:hover{
+    border: 3px solid rgb(55, 255, 55);
 }
 .tesoura-img{
     width: 270px;
     height: 200px;
+    border: 3px solid white;
 }
+.tesoura-img:hover{
+    border: 3px solid rgb(55, 255, 55);
+}
+/* Fim */
+/* Jogada robo */
+/* Inicio */
+#jogada-robo p{
+    text-align: center;
+}
+/* Fim */
+/* Resultado */
+/* Inicio */
+#resultado p{
+    text-align: center;
+}
+/* Fim */
