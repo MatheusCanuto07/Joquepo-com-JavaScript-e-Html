@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#jogada-player{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#jogada-player p{
+    text-align: center;
+}
+.pai-imagens{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100%;
+    max-height: 100%;
+}
+.pai-botoes{
+    display: flex;
+    justify-content: center;
+}
+.papel-img{
+    width: 250px;
+    height: 200px;
+}
+.pedra-img{
+    width: 270px;
+    height: 200px;
+}
+.tesoura-img{
+    width: 270px;
+    height: 200px;
+}
