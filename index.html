@@ -11,27 +11,36 @@
     <div id="jogada-player">
         <p>Selecione a sua jogada</p>
         <div class="pai-imagens">
-            <div><img src="/img/Nova pasta/papel.jpeg" alt="" class="papel-img"></div>
-            <div><img src="/img/Nova pasta/pedra.webp" alt="" class="pedra-img"></div>
-            <div><img src="/img/tesoura.jpg" alt="" class="tesoura-img"></div>
+            <div><img src="/img/Nova pasta/papel.jpeg" alt="" class="papel-img" id="papel-player"></div>
+            <div><img src="/img/Nova pasta/pedra.webp" alt="" class="pedra-img" id="pedra-player"></div>
+            <div><img src="/img/tesoura.jpg" alt="" class="tesoura-img" id="tesoura-player"></div>
         </div>
         <div class="pai-botoes">
-            <button>Confirmar</button>
-            <button>Resetar</button>
+            <button id="botao-confirma">Confirmar</button>
+            <!-- <button>Resetar</button> -->
         </div>
     </div>
     <div id="jogada-robo">
         <p>Escolha da IA</p>
         <div class="pai-imagens">
-            <div><img src="/img/Nova pasta/papel.jpeg" alt="" class="papel-img"></div>
-            <div><img src="/img/Nova pasta/pedra.webp" alt="" class="pedra-img"></div>
-            <div><img src="/img/tesoura.jpg" class="tesoura-img" alt=""></div>
+            <div><img src="/img/Nova pasta/papel.jpeg" alt="" class="papel-img" id="papel-robo"></div>
+            <div><img src="/img/Nova pasta/pedra.webp" alt="" class="pedra-img" id="pedra-robo"></div>
+            <div><img src="/img/tesoura.jpg" class="tesoura-img" id="tesoura-robo" alt=""></div>
         </div>
     </div>
-    <div id="resultado">
-        <p>Resultado da partida: </p>
-        <div></div>
-    </div>
+    <p style="text-align: center;">Resultado da partida: </p>
+
+    <div id="pai-resultado">
+        <div id="filho-resultado-empate">
+            <h2>Empate</h2>
+        </div>
+        <div id="filho-resultado-vitoria">
+            <h2>Vitória</h2>
+        </div>
+        <div id="filho-resultado-derrota">
+            <h2>Derrota</h2>
+        </div>
+    </div >
 
     <script src="script.js"></script>
 </body>
