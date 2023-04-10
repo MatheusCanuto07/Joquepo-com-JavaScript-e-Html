@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* Parte da jogada do player */
+/* Inicio */
+#jogada-player{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#jogada-player p{
+    text-align: center;
+}
+.pai-imagens{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100%;
+    max-height: 100%;
+}
+.pai-botoes{
+    display: flex;
+    justify-content: center;
+}
+/* Fim */
+/* Ajuste tamanho e borda imagem (hover tbm) */
+/* Inicio */
+.papel-img{
+    width: 250px;
+    height: 200px;
+    border: 3px solid white;
+}
+#jogada-player .papel-img:hover{
+    border: 3px solid rgb(55, 255, 55);
+}
+.pedra-img{
+    width: 270px;
+    height: 200px;
+    border: 3px solid white;
+}
+#jogada-player .pedra-img:hover{
+    border: 3px solid rgb(55, 255, 55);
+}
+.tesoura-img{
+    width: 270px;
+    height: 200px;
+    border: 3px solid white;
+}
+#jogada-player .tesoura-img:hover{
+    border: 3px solid rgb(55, 255, 55);
+}
+/* Fim */
+/* Jogada robo */
+/* Inicio */
+#jogada-robo p{
+    text-align: center;
+}
+/* Fim */
+/* Resultado */
+/* Inicio */
+#pai-resultado{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+/* Empate */
+#filho-resultado-empate{
+    background-color: gray;
+    width: 270px;
+    height: 200px;
+    /* Alinhar o item ao centro */
+    display: none;
+    justify-content: center;
+    align-items: center;
+}   
+/* Vitoria da maquina */
+#filho-resultado-vitoria{
+    background-color: greenyellow;
+    width: 270px;
+    height: 200px;
+    /* Alinhar o item ao centro */
+    display: none;
+    justify-content: center;
+    align-items: center;
+}   
+/* Vitoria do player */
+#filho-resultado-derrota{
+    background-color: red;
+    width: 270px;
+    height: 200px;
+    /* Alinhar o item ao centro */
+    display: none;
+    justify-content: center;
+    align-items: center;
+}   
+/* Fim */
